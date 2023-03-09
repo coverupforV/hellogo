@@ -1,12 +1,12 @@
 package main
 
-import(
-    "fmt
-    os"
+import (
+	"fmt"
+	"os"
 )
 
 func main() {
-    var s string
-    s = os.Args[0]
-    fmt.Println(s)
-} 
+	var s string
+	s = os.Args[0]
+	fmt.Println(s)
+}
