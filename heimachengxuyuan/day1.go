@@ -9,11 +9,11 @@ func main() {
 	//同一个{}里声明的变量名唯一
 	var a int
 	//声明的变量必须使用，不然会报错
-	fmt.Println("a=", a)
+	fmt.Println("a =", a)
 
 	//可以声明多个变量
 	//var b, c int
 	a = 10
-	fmt.Println("a=", a)
+	fmt.Println("a =", a)
 
 }
