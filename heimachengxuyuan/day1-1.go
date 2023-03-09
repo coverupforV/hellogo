@@ -13,7 +13,16 @@ func main() {
 
 	//可以声明多个变量
 	//var b, c int
-	a = 10
+	a = 10 //赋值
 	fmt.Println("a =", a)
+
+	var b int = 10 //2.声明的时候就赋值
+	b = 20
+	fmt.Println("b = ", b)
+
+	//3。自动推导类型，必须初始化，由初始化的值确定类型（常用）
+	c := 30
+	//%T输出变量类型
+	fmt.Printf("c type is %T\n", c)
 
 }
